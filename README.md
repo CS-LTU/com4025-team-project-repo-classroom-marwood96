@@ -1,3 +1,3 @@
 <H2>TEAM PROJECT - README</H2>
-<HR>
-<P>ASFASFA</P>
+<BR>
+<P>Content yet to be filled</P>
