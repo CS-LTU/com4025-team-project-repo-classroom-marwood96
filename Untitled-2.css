@@ -283,6 +283,7 @@ nav {
 @media only screen and (max-width: 1145px) {
     #trendingArticles {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .box {
@@ -298,9 +299,41 @@ nav {
     display: flex;
     width: 70%;
     margin: 0 auto;
-    height: 700px;
     background-color: #f3f5fa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-right: 1px solid rgba(112, 103, 103, 0.315);
+}
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+#adviceArticle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(112, 103, 103, 0.315);
 }
 
 /* --------- FOOTER --------- */
